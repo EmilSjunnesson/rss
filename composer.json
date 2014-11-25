@@ -3,7 +3,7 @@
 "type": "library",
 "description": "Simple Pie wrapper",
 "keywords": ["rss", "education","wrapper"],
-"homepage": "http://dbwebb.se",
+"homepage": "https://github.com/EmilSjunnesson/rss",
 "license": "MIT",
 "authors": [
 {
