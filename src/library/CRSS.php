@@ -1,6 +1,6 @@
 <?php
 
-namespace Emsf14\Rss;
+namespace Emsf14\library;
 
 class CRSS
 {
