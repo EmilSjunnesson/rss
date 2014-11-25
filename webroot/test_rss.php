@@ -10,4 +10,4 @@ $feed = new \Emsf14\library\CRSS([
 <meta charset=utf8>
 <title>RSS Example</title>
 <h1>RSS Example</h1>
-<?=$feed->printFeed()?>
+<?=$feed->printFeed()?>j
