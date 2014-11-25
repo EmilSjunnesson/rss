@@ -1,7 +1,7 @@
 <?php
 require '../src/library/CRSS.php';
 
-$feed = new CRSS([
+$feed = new \Emsf14\RSS\CRSS([
 	'http://dailycatdrawings.tumblr.com/rss'
 ]);
 
