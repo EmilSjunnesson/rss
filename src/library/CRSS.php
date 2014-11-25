@@ -11,7 +11,7 @@ class CRSS
     	require_once(__DIR__ . '/../autoloader.php');
     	
     	// We'll process this feed with all of the default options.
-    	$feed = new SimplePie();
+    	$feed = new \SimplePie();
     	
     	$feed->set_cache_location(__DIR__ . '/cache');
     	

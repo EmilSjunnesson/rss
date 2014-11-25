@@ -1,5 +1,4 @@
 <?php
-namespace Emsf14\Rss;
 /**
  * SimplePie
  *
