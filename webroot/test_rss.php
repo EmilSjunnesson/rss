@@ -2,7 +2,7 @@
 require '../src/library/CRSS.php';
 
 $feed = new \Emsf14\RSS\CRSS([
-	'http://dailycatdrawings.tumblr.com/rss'
+	'http://feeds.bbci.co.uk/news/rss.xml'
 ]);
 ?>
 
