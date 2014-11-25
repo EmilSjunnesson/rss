@@ -4,7 +4,6 @@ namespace Emsf14\Rss;
 
 class CRSS
 {
-    use \Emsf14\Rss\SimplePie;
     private $feed;
 	
 	public function __construct(array $feedUrls)

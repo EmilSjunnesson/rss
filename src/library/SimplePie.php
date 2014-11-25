@@ -402,6 +402,7 @@ define('SIMPLEPIE_FILE_SOURCE_CURL', 8);
  */
 define('SIMPLEPIE_FILE_SOURCE_FILE_GET_CONTENTS', 16);
 
+namespace Emsf14\Rss;
 
 /**
  * SimplePie
