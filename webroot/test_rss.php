@@ -1,7 +1,7 @@
 <?php
 require '../src/library/CRSS.php';
 
-$feed = new \Emsf14\RSS\CRSS([
+$feed = new \Emsf14\library\CRSS([
 	'http://feeds.bbci.co.uk/news/rss.xml'
 ]);
 ?>
