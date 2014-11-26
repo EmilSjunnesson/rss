@@ -11,7 +11,7 @@ your composer.json file:
     "emsf14/rss": "dev-master"
 },
 ```
-After using Compser to install the package, you can find it in your vendor directory, read for use.
+After using Compser to install the package, you can find it in your vendor directory, ready for use.
 In the webroot subfolder you'll find a simple working example. Important! The cache-folder needs 
 to be writeable.
 
