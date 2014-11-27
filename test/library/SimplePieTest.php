@@ -13,6 +13,18 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
      * @return void
      *
      */
+    public function test__constructor()
+    {
+        $simplePie = new \SimplePie('fail');
+    }
+
+    
+    /**
+     * Test
+     *
+     * @return void
+     *
+     */
     public function test__toString()
     {
         $simplePie = new \SimplePie();
