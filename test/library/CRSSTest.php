@@ -31,6 +31,7 @@ class CRSSTest extends \PHPUnit_Framework_TestCase
     }
     
     public function printFeed() {
+        // Get feed variable
     	$feed = $this->feed;
     	
     	$html = "<div class='header'>
