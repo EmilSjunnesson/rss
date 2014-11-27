@@ -65,19 +65,6 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
      * @return void
      *
      */
-    public function testset_stupidly_fast()
-    {
-        $simplePie = new \SimplePie();
-
-        $res = $simplePie->set_stupidly_fast(true);
-    }
-    
-     /**
-     * Test
-     *
-     * @return void
-     *
-     */
     public function teststrip_htmltags()
     {
         $simplePie = new \SimplePie();
