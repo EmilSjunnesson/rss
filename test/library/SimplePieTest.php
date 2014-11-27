@@ -97,4 +97,31 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
 
         $res = $simplePie->get_item();
     }
+    
+   /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testset_file()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->set_file('no_file');
+        $this->assertInternalType('boolean', $res, "Return type in not a boolean");
+    }
+    
+     /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testget_category()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->get_category(2);
+    }
 }
