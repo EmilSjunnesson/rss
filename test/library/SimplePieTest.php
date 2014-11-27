@@ -17,7 +17,7 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
     {
         $simplePie = new \SimplePie();
 
-        $res = $rss->__toString();
+        $res = $simplePie->__toString();
         $this->assertInternalType('string', $res, "Return type in not a string");
     }
     
