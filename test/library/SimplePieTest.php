@@ -10,6 +10,8 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
+     * @expectedException Exception
+     *
      * @return void
      *
      */
