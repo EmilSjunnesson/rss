@@ -58,7 +58,7 @@ class CRSSTest extends \PHPUnit_Framework_TestCase
      */
     public function testprintFeed()
     {
-        $rss = new \Emsf14\library\CRSS();
+        $rss = new \Emsf14\library\CRSS([]);
 
         $res = $rss->printFeed();
         $exp = "My Name is Mumintrollet.";
