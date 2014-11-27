@@ -126,4 +126,21 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
 
         $res = $simplePie->get_category(2);
     }
+    
+    /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testfetch_data()
+    {
+        $simplePie = new \SimplePie();
+        
+        $simplePie->data = ['bulid' => 1, 'url' => 1, 'headers' => 1]
+        
+        $file = null;
+        
+        $res = $simplePie->get_category($file);
+    }
 }
