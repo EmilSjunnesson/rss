@@ -20,7 +20,6 @@ class CRSSTest extends \PHPUnit_Framework_TestCase
         $rss = new \Emsf14\library\CRSS([]);
 
         $res = $rss->printFeed();
-        $this->assertEquals($res, $exp, "The name does not match.");
         $this->assertInternalType('string', $res, "Return type in not a string");
     }
 }
