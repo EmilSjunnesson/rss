@@ -34,4 +34,17 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
         $res = $simplePie->force_feed(true);
     }
     
+    /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testget_image_tags()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->get_image_tags('invalid','invalid');
+    }
+    
 }
