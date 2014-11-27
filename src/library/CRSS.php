@@ -41,7 +41,7 @@ class CRSS
     		<p><small>Posted on {$item->get_date('j F Y | g:i a')}</small></p>
     		</div>";
     	}
-    	return "My Name is Mumintrollet.";
+
     	return $html;
     }
 }
