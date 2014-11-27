@@ -2,7 +2,11 @@
 
 namespace Emsf14\library;
 
-class CRSS
+/**
+ * A testclass
+ * 
+ */
+class CRSSTest extends \PHPUnit_Framework_TestCase
 {
     private $feed;
 	
@@ -41,7 +45,22 @@ class CRSS
     		<p><small>Posted on {$item->get_date('j F Y | g:i a')}</small></p>
     		</div>";
     	}
-    	return "My Name is Mumintrollet.";
+    	
     	return $html;
+    }
+    
+    /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testprintFeed()
+    {
+        $rss = new \Emsf14\library\CRSS();
+
+        $res = $rss->printFeed();
+        $exp = "My Name is Mumintrollet.";
+        $this->assertEquals($res, $exp, "The name does not match.");
     }
 }
