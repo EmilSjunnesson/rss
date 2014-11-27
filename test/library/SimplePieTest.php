@@ -71,4 +71,30 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
 
         $res = $simplePie->strip_htmltags('<b>');
     }
+    
+     /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testget_language()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->get_language();
+    }
+    
+     /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testget_item()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->get_item();
+    }
 }
