@@ -1,5 +1,6 @@
 RSS wrapper
 ==========
+[![Build Status](https://travis-ci.org/EmilSjunnesson/rss.svg?branch=master)](https://travis-ci.org/EmilSjunnesson/rss)
 This is a Simple Pie wrapper that makes it easy to display RSS feeds. You can even merge 
 multiple feeds into one.
 Installation
