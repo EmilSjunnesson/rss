@@ -10,7 +10,7 @@ class SimplePie_EnclosureTest extends \PHPUnit_Framework_TestCase
      */
     public function testprintFeed()
     {
-        $enclosure = new \Enclosure();
+        $enclosure = new \SimplePie_Enclosure();
 
         $res = $encloseure->native_embed(['widescreen => true']);
         $this->assertInternalType('string', $res, "Return type in not a string");
