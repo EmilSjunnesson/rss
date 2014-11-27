@@ -108,7 +108,9 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
     {
         $simplePie = new \SimplePie();
 
-        $res = $simplePie->set_file('no_file');
+        $file = null;
+        
+        $res = $simplePie->set_file($file);
         $this->assertInternalType('boolean', $res, "Return type in not a boolean");
     }
     
