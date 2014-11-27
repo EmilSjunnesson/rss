@@ -5,22 +5,7 @@
  * 
  */
 class SimplePieTest extends \PHPUnit_Framework_TestCase
-{
-
-    /**
-     * Test
-     *
-     * @expectedException Exception
-     *
-     * @return void
-     *
-     */
-    public function test__constructor()
-    {
-        $simplePie = new \SimplePie('fail');
-    }
-
-    
+{    
     /**
      * Test
      *
@@ -61,4 +46,42 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
         $res = $simplePie->get_image_tags('invalid','invalid');
     }
     
+    /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testset_stupidly_fast()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->set_stupidly_fast(true);
+    }
+    
+     /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function testset_stupidly_fast()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->set_stupidly_fast(true);
+    }
+    
+     /**
+     * Test
+     *
+     * @return void
+     *
+     */
+    public function teststrip_htmltags()
+    {
+        $simplePie = new \SimplePie();
+
+        $res = $simplePie->strip_htmltags('<b>');
+    }
 }
