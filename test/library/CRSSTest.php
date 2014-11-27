@@ -17,7 +17,7 @@ class CRSSTest extends \PHPUnit_Framework_TestCase
      */
     public function testprintFeed()
     {
-        $rss = new \Emsf14\library\CRSS([]);
+        $rss = new \Emsf14\library\CRSS(['http://feeds.bbci.co.uk/news/rss.xml']);
 
         $res = $rss->printFeed();
         $this->assertInternalType('string', $res, "Return type in not a string");
