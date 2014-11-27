@@ -2,13 +2,16 @@
 
 class SimplePie_EnclosureTest extends \PHPUnit_Framework_TestCase
 {
+        
+    require('../../../src/library/SimplePie/Enclosure.php');
+        
     /**
      * Test
      *
      * @return void
      *
      */
-    public function testprintFeed()
+    public function testnative_embed()
     {
         $enclosure = new \SimplePie_Enclosure();
 
