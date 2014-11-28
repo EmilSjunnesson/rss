@@ -139,6 +139,6 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
 
         $registry = $simplePie->registry;
         
-        $registry->&create();
+        $enclosure = $registry->get_class('Enclosure');
     }
 }
