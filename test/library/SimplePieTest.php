@@ -140,5 +140,8 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
         $registry = $simplePie->registry;
         
         $enclosure = $registry->get_class('Enclosure');
+        
+        $res = $enclosure->native_embed(['bgcolor' => '#cccccc']);
+        $this->assertInternalType('string', $res, "Return type in not a string");
     }
 }
