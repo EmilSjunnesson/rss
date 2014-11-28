@@ -126,22 +126,4 @@ class SimplePieTest extends \PHPUnit_Framework_TestCase
 
         $res = $simplePie->get_category(2);
     }
-    
-    /**
-     * Test
-     *
-     * @return void
-     *
-     */
-    public function testget_registry()
-    {
-        $simplePie = new \SimplePie();
-
-        $registry = $simplePie->registry;
-        
-        $enclosure = $registry->get_class('Enclosure');
-        
-        $res = $enclosure->native_embed(['bgcolor' => '#cccccc']);
-        $this->assertInternalType('string', $res, "Return type in not a string");
-    }
 }
